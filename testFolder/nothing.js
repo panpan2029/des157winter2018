@@ -1,5 +1,6 @@
 // global variables
-console.log("reading   ..... ");
+//test add folder
+console.log("reading   2 ");
 var joke = document.getElementById('joke');
 var answer = document.getElementById('answer');
 var close = document.getElementById('close');

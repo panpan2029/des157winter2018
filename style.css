@@ -35,6 +35,7 @@ button {
   background-color: #000;
   color: deeppink;
   display: none;
+  /* display: inline-block; */
   opacity: 0.85;
 }
 
