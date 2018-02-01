@@ -1,0 +1,56 @@
+/* basic body */
+
+body {
+  font-family: helvetica;
+  padding: 24px;
+  font-size: 100%;
+}
+
+/* font changes */
+
+section {
+  width: 6in;
+  margin: auto;
+  font-size: 2em;
+}
+
+/* colorful button */
+
+button {
+  border: 0px;
+  border-radius: 14px;
+  padding: 24px;
+  background-color: deeppink;
+  color: antiquewhite;
+}
+
+/* overlay */
+
+#answer {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  color: deeppink;
+  display: none;
+  opacity: 0.85;
+}
+
+/* vertically center text */
+
+#answer p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* overlay close button position */
+
+#close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
